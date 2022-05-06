@@ -2,6 +2,8 @@ from django.db import models
 
 
 # Create your models here.
+# class User(models.Model):
+
 class DiaryEntry(models.Model):
     pub_date = models.DateTimeField("date published")
     title = models.CharField(max_length=20, default="No Title")
