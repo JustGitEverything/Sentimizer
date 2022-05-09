@@ -8,6 +8,7 @@ authors = ["Henry <henry.phz@yahoo.com>"]
 python = "^3.10"
 Django = "^4.0.4"
 djangorestframework = "^3.13.1"
+gunicorn = "^20.1.0"
 
 [tool.poetry.dev-dependencies]
 
